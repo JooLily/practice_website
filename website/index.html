@@ -1,124 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>HTML Practice by Lily</title>
-
-    </head>
-    <body>
-        <h1>HTML Foundations Lesson and Practice</h1>
-        <p>Hello, I am Lily, and this is my first HTML webpage, and this is where I will use the HTML elements and attributes that I learned today. This page will serve not only as practice for me, but it will also hopefully serve as my notes to reference if needed in the future.</p>
-        <h2>Bold and Italic texts</h2>
-        <P><strong><em>Lorem ipsum dolor sit amet,</em> consectetur adispcing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat cupidatat non proident,</b> <em>sunt in culpa qui officia deserunt mollit anim id est laborum.</em></P>
-        <p>Use <strong>"strong"</strong> to make world <strong>bold</strong>, and use <strong><em>"em"</em></strong> to make words <em>italicized</em>.</p>
-        <p>While <strong>"b"</strong> and <strong>"i"</strong> can be used to make texts <b>bold</b> and <i>italic</i> <strong><em>visually</em></strong>, the computer may not recognize or place importance on these words. Therefore, if someone is using a screen reader or accessibility settings, the bold and italic texts may not translate properly.</p>
-        <!-- I am an html comment -->
-        <h2>Other Text Markups</h2>
-        <p><mark>Lorem, ipsum dolor</mark> <ins>sit amet consectetur adipisicing elit.</ins> <del>deleted</del> <small>Exercitationem repudiandae facilis</small> <sup>quas</sup> soluta <sub>perferendis</sub> esse non asperiores, maiores iusto earum ipsam sapiente hic totam! <strong><em>Facilis, libero.</em> Dicta expedita voluptatibus ab.</strong></p>
-        <ul>
-            <li><strong>"mark"</strong> will <mark>highlight</mark> words.</li>
-            <li><strong>"ins"</strong> will <ins>underline</ins> words <i>(stands for "inserted text")</i>.</li>
-            <li><strong>"del"</strong> will <del>delete</del> or <del>strikethrough</del> text.</li>
-            <li><strong>"small"</strong> will make text <small>smaller.</small></li>
-            <li><strong>"sup"</strong> will put text in <sup>superscript</sup>.</li>
-            <li><strong>"sub"</strong> will put text in <sub>subscript</sub>.</li>
-        </ul>
-       <h2>Lists</h2>
-       <h3>Unordered Lists</h3>
-       <p><strong>"ul"</strong> creates an unordered list with bullet points.</p>
-       <ul>
-        <li>This is an unordered list.</li>
-        <li><strong>"li"</strong> creates a list item</li>
-        <li>In an <em>unordered list</em>, each list item starts with a bullet point</li>
-        <li>This is the fourth list item</li>
-        </ul>
-        <h3>Ordered lists</h3>
-        <p><strong>"ol"</strong> creates an ordered list.</p>
-        <ol>
-            <li>This is an ordered list.</li>
-            <li>Again, <strong>"li"</strong> is used to create a list item.</li>
-            <li>In an ordered list, each list item starts with a number according to its numerical position on the list.</li>
-            <li>This is the fourth list item.</li>
-        </ol>
-        <h3>Nesting in Lists</h3>
-        <p>I can customize the nesting in lists to create a sub-list within a list.</p>
-        <h4>Example:</h4>
-        <ul>
-            <li>This is the first list item. I will close the element normally.</li>
-            <li>This is the second list item. I will not close this element yet.
-                <ul>
-                    <li>This is the first sub-item in the sub-list I created by not closing the "li" element before opening a new "ul" (unordered list) element.</li>
-                    <li>Second sub-item of the first sub-list</li>
-                    <li>I will create yet another sub-list by not closing the "li" element just yet for this list item.
-                        <ul>
-                            <li>This is the first item in the second sub-list I created with the first sub-list.</li>
-                            <li>Another sub-sub-item</li>
-                            <li>Wow, this is cool</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <ul>
-            <li>Closing elements is important to avoid accidentally formatting lists and other elements in a way I did not intend to format.
-                <ul>
-                    <li>However, when done intentionally, I can manipulate the way I present the content or information in a list.
-                        <ul>
-                            <li>But I should remember to correctly close the elements afterwards.</li>
-                        </ul>
-                    <li>Like so.</li>
-                    </li>
-                </ul>
-            </li>
-            <li>And again.</li>
-            <li>This can get pretty confusing.
-                <ol>
-                    <li>Indents to show nesting really help with keeping track.</li>
-                    <li>I can see now why attention to detail is so important in programming.</li>
-                </ol>
-            </li>
-        </ul>
-        <!-- this is fun -->
-         <h3>More Practice</h3>
-         <h4>To-Do List:</h4>
-         <ol>
-            <li><del>Review the HTML boilerplate</del></li>
-            <li>Continue "HTML Foundations" lesson
-                <ul>
-                    <li><del>Elements and Tags</del></li>
-                    <li><del>HTML Boilerplate</del></li>
-                    <li><del>Working with Text</del></li>
-                    <li><del>Lists</del>
-                        <ol type="i">
-                            <li><del>Unordered lists</del></li>
-                            <li><del>Ordered lists</del></li>
-                            <li><del>Nesting</del></li>
-                        </ol>
-                    </li>
-                    <li>Links and Images</li>
-                    <li>Commit Messages</li>
-                    <li><strong>Project: Recipes</strong></li>
-                </ul>
-            </li>
-            <li>Review "Git Basics" and "Command Line Basics" lesson</li>
-         </ol>
-         <h4>Description Lists</h4>
-         <dl>
-            <dt><strong>"dl"</strong></dt>
-            <dd>Like <strong>"ol"</strong> and <strong>"ul"</strong>, <strong>"dl"</strong> will make a list, but it will make a description list.</dd>
-            <dt><strong>"dt"</strong></dt>
-            <dd>This element will create a list item in description lists.</dd>
-            <dd>Similar to <strong>"li"</strong></dd>
-         </dl>
-         <h2>Links</h2>
-         <p>The anchor element, <strong>"a"</strong>, used with the hypertext reference attribute, <strong>"href"</strong>, can be used to link a webpage or other files.</p>
-         <p>However, without a <strong>"target"</strong> attribute, the user who clicks on the anchored text will be redirected to the link on the same tab. Designating the <strong>"target"</strong> as <strong>"_blank"</strong> will open the link in a new tab.</p>
-         <p><strong>IMPORTANT:</strong> Using the <strong>"rel"</strong> attribute to include <strong>"noopener"</strong> and <strong>"noreferrer"</strong> will ensure privacy and security of both the webpage and the user who accesses the link.</p>
-         <dl>
-            <dt><strong>noopener</strong></dt>
-            <dd>This attribute makes sure that the link opened in a new tab cannot access the page the user is coming from. Without this attribute, the new page may manipulate the new page with Javascript (this can pose a security risk).<a href=https://www.theodinproject.com/lessons/foundations-links-and-images#target-security target="_blank" rel=noreferrer><sup>source</sup></a></dd>
-            <dt><strong>noreferrer</strong></dt>
-            <dd>This attribute hides the referrer, preventing the new page from knowing where the user came from, <em>and also includes the behavior of <strong>noopener</strong></em>, preventing the new page from accessing the original page.<a href=https://www.theodinproject.com/lessons/foundations-links-and-images#target-security target="_blank" rel=noreferrer><sup>source</sup></a></dd>
-         </dl>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily's Website</title>
+</head>
+<body>
+    <h1>Lily's Website</h1>
+    <h2>HTML</h2>
+    <p>Below is a collection of my practice for the HTML lessons I've completed.</p>
+    <p><a href="html/htmlfoundations.html">HTML lessons and practice</a></p>
+    <h2>Recipes</h2>
+    <p>Below is a collection of recipes for my first HTML project.</p>
+    <p><a href="recipes/recipesproject.html">Recipe Title</a></p>
+</body>
 </html>
